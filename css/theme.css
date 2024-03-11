@@ -1,0 +1,15 @@
+@import url(./reset.css);
+header h1{
+    line-height: 7.0rem;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #222;
+    color: #fff;
+}
+article{
+    max-width: 100rem;
+    margin: 5rem auto;
+}
+footer *{
+    text-align: center;
+}
