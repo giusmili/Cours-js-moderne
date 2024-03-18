@@ -12,4 +12,27 @@ document.addEventListener("DOMContentLoaded", e => {
 
   console.log(typeof User);
   User.user_print();
+  // Opérateur
+
+  /* 
+  =
+  += ajouter
+  -= enlever
+  ++ +1
+  -- -1
+  % modulo
+  * mult
+  /
+  <=
+  >=
+  >
+  <
+  ||
+  &&
+  */
+  let nombre = Number(9);
+  let nombre_1 = String("9");
+  const version = 9.5;
+  nombre === nombre_1 ? console.log(true) : console.log(false);
+  console.log(nombre * 2);
 });
