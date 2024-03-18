@@ -1,4 +1,3 @@
-
 export const User = {
      user_print() {
           let el = document.querySelector("h1");
