@@ -1,7 +1,8 @@
 export const User = {
      user_print() {
           let el = document.querySelector("h1");
-          el.innerText = "Cours javascript moderne version 8";
+          // attention pour une chaine de caractères qui contien du code c'est innnerHTML
+          el.innerHTML = '<span aria-hidden="true">🚀</span>Cours javascript moderne version 8';
           let footer = document.querySelector("footer p");
           let dates = new Date().getFullYear();
           let time = new Date().toLocaleDateString("fr-FR", options);
