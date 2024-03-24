@@ -1,4 +1,4 @@
-import { User, options } from "./modules_js.js";
+import { User, options, country } from "./modules_js.js";
 
 document.addEventListener("DOMContentLoaded", e => {
   //fonction main js
