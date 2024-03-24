@@ -1,4 +1,4 @@
-import { User, options } from "./modules_js.js";
+import { User, options, country } from "./modules_js.js";
 
 document.addEventListener("DOMContentLoaded", e => {
   //fonction main js
@@ -35,4 +35,13 @@ document.addEventListener("DOMContentLoaded", e => {
   const version = 9.5;
   nombre === nombre_1 ? console.log(true) : console.log(false);
   console.log(nombre * 2);
+
+  //object
+  for (let index in country) {
+    if (index != "gouvernement") {
+      console.log(index + " : " + country[index] + '\n');
+    } else {
+      console.log(index + " : " + country.gouvernement.type);
+    }
+  }
 });
