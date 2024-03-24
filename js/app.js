@@ -35,4 +35,9 @@ document.addEventListener("DOMContentLoaded", e => {
   const version = 9.5;
   nombre === nombre_1 ? console.log(true) : console.log(false);
   console.log(nombre * 2);
+
+  /* Chaînage optionnel en JavaScript {}?. */
+  /* npm install --save-dev @babel/plugin-proposal-optional-chaining */
+  // Définition de l'objet person avec une propriété address pouvant être nulle
+
 });
