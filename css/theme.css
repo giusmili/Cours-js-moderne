@@ -1,3 +1,6 @@
+/*==========================
+  THEME CSS
+==========================*/
 @import url(./reset.css);
 header h1 {
   line-height: 7rem;
@@ -5,10 +8,14 @@ header h1 {
   padding: 1rem 0;
   background-color: #222;
   color: #fff;
+  cursor: pointer;
 }
 article {
   max-width: 100rem;
   margin: 5rem auto;
+}
+article h2{
+  cursor: pointer;
 }
 .btn-default {
   display: inline-block;
@@ -31,6 +38,18 @@ article {
 .btn-success {
   background-color: #00b894;
   color: #fff;
+}
+div:where(.swal2-container).swal2-center > .swal2-popup{
+  /* sweet alert */
+  width: 50rem;
+  font-size: inherit;
+  font-weight: normal;
+  
+}
+div:where(.swal2-container).swal2-center > .swal2-popup img{
+  padding: 1rem;
+  border-radius: .8rem;
+  filter: grayscale(100%);
 }
 footer * {
   text-align: center;
