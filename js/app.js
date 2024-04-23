@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", e => {
 
     //sweet Alert
     Swal.fire({
-      title: "🚀Bon travail",
+      title: "🚀 Bon travail",
       text: "Tu as bien cliqué ici",
       icon: "success"
     });
@@ -25,12 +25,12 @@ document.addEventListener("DOMContentLoaded", e => {
 
     //sweet Alert
     Swal.fire({
-      title: "Portfolio",
-      text: "Bonjour chez moi",
-      imageUrl: "https://picsum.photos/seed/picsum/600/200",
-      imageWidth: 600,
+      title: "Sweet!",
+      text: "Modal with a custom image.",
+      imageUrl: "https://unsplash.it/400/200",
+      imageWidth: 400,
       imageHeight: 200,
-      imageAlt: "Cover image"
+      imageAlt: "Custom image"
     });
   });
 
